@@ -1,0 +1,17 @@
+html {
+    background: url(img/HotNCold.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    color: white;
+    font-size: 18pt;
+}
+
+fieldset {
+    width: 35%;
+    border: 6px groove;
+}

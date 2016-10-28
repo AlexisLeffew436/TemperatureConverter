@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h2><span style="text-shadow: 0 0 20px #a5dcff">Insert a number into one of the input</span><span style="text-shadow: 0 0 20px #ffbf5e"> fields below:</span></h2>
+    <fieldset><label for="C"></label>
+        <input type="text" placeholder="Input Celsius" id="C" onkeyup="convert('C')"> Degrees Celsius<br>
+        equals<br>
+    <label for="F"></label><input type="text" id="F" placeholder="Input Fahrenheit" onkeyup="convert('F')"> Degrees Fahrenheit<br>
+    </fieldset>
+
+<script src="script.js"></script>
+
+</body>
+</html>
